@@ -1,0 +1,202 @@
+/************************** HTML Elements **************************/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 5%;
+}
+
+p {
+    font-size: 90%;
+    color: grey;
+    text-align: center;
+}
+/***********************************************************************/
+
+
+#title {
+    background-color: #ff4c68;
+}
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+
+.container {
+    padding: 3% 15%;
+}
+
+.container-fluid {
+    padding: 3% 15% 13%;
+}
+
+/************************** Download Buttons **************************/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.fa-apple {
+    font-size: 1.3rem;
+}
+
+.fa-google-play {
+    font-size: 1.1rem;
+}
+
+/***********************************************************************/
+
+.first-row {
+    padding: 0 0 0 0;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.symbols {
+    font-size: 3rem;
+    padding: 0 42% 5%;
+    color: pink;
+}
+
+.symbols:hover {
+    color:red;
+}
+
+
+.title-image {
+    width: 320px;
+    transform: rotate(15deg);
+    position: absolute;
+    z-index: 0;
+    right: 20%;
+}
+
+/*************************** Testimonials ***************************/
+
+#testimonials {
+    background-color: #f76374;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #f76374;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/**************************** Pricing ***************************/
+#pricing {
+    padding: 100px;
+    text-align: center;
+    color:
+}
+
+.pricing-column {
+    padding: 2% 3%;
+}
+
+.card-body {
+
+    height: 320px;
+}
+
+.line-through {
+    text-decoration: line-through
+}
+
+/******************************************* Footer *******************************************/
+#cta {
+    background-color: #f76374;
+    color: #fff;
+    text-align: center;
+    padding: 9% 15%;
+}
+
+#footer {
+    text-align: center;
+}
+
+.bottom-h3 {
+    padding: 6%;
+}
+
+.bottom-button {
+    margin: 0 0 100px 0;
+}
+/************************************************************************************/
+
+@media (max-width: 1018px) {
+#title {
+    text-align: center;
+}
+
+.title-image {
+    width: 320px;
+    position: static;
+    transform: rotate(0);
+}
+}
+
+.footer-sym {
+    padding: 20px 5px;
+    color: #f76374;
+    font-size: 1.5rem;
+}
+
+.footer-sym:hover {
+    color: pink;
+}
